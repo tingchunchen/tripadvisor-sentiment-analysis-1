@@ -65,5 +65,5 @@ for name_url in zip(names, urls):
 # titles, comments, replies = scrape_data(url)
 
 df = pd.DataFrame({'hotels': hotels, 'titles': titles, 'comments': comments, 'replies': replies})
-df.to_csv('comments.csv', index=False, encoding='')
+df.to_csv('comments.csv', index=False, encoding='big5')
 
